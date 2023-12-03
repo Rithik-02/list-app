@@ -1,0 +1,79 @@
+.list {
+  background-color: #fff;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 8px;
+  min-width: 300px;
+  margin-top: 2rem;
+}
+h1 {
+  text-align: center;
+}
+.Check {
+  display: flex;
+  overflow: hidden;
+  gap: 5px;
+}
+.btnAdd {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.btnAdd:hover {
+  background-color: #03774c;
+  transition: all 0.3s;
+}
+.addItems {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1rem 0 1rem 0;
+}
+
+.addTask {
+  color: #026641;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: 0;
+  flex: 1;
+  padding-left: 1.7rem;
+  outline: none;
+  font-family: "Playpen Sans", cursive;
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  overflow: hidden;
+  font-weight: 500;
+  color: #026641;
+}
+.text.checked {
+  color: rgb(167, 166, 166);
+  text-decoration: line-through;
+}
+.btn {
+  min-width: 84px;
+}
+.btnEdit,
+.btnDelete {
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.btnEdit:hover,
+.btnDelete:hover {
+  background-color: #ebeaea;
+  transition: all 0.3s;
+  border-radius: 9px;
+}

@@ -5,7 +5,7 @@ export default function List() {
   const [items, setItems] = useState([]);
   const [list, setList] = useState("");
   const [editingIndex, setEditingIndex] = useState(null);
-  console.log(list.length);
+
   const addHandler = () => {
     if (editingIndex !== null) {
       const updatedItems = [...items];
